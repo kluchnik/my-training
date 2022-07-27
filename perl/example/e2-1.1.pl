@@ -17,6 +17,8 @@ print "Введите третье число\n";
 my $z=<STDIN>;
 chomp $z;
 
+print "-------------------\n";
+
 sub min_and_max {
     my $min = $x;
     my $max = $y;

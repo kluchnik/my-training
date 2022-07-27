@@ -24,6 +24,8 @@ print "Введите третье число\n";
 my $c=<STDIN>;
 chomp $c;
 
+print "-------------------\n";
+
 sub solve_equation {
 my ( $a, $b, $c ) = @_;
     my $x1;
